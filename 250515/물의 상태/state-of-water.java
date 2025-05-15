@@ -11,7 +11,7 @@ public class Main {
         if ( deg < 0 ) {
             System.out.printf("ice");
         }
-        else if ( deg > 100 ) {
+        else if ( deg >= 100 ) {
             System.out.printf("vapor");
         }
         else {
